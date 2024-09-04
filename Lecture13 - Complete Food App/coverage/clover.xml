@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1725433732031" clover="3.2.0">
+  <project timestamp="1725433732031" name="All files">
+    <metrics statements="124" coveredstatements="104" conditionals="39" coveredconditionals="22" methods="50" coveredmethods="40" elements="213" coveredelements="166" complexity="0" loc="124" ncloc="124" packages="2" files="17" classes="17"/>
+    <package name="components">
+      <metrics statements="95" coveredstatements="80" conditionals="35" coveredconditionals="22" methods="40" coveredmethods="33"/>
+      <file name="Body.js" path="C:\Users\Himanshu Kumar\Desktop\Practice\Lecture13\src\components\Body.js">
+        <metrics statements="26" coveredstatements="25" conditionals="6" coveredconditionals="4" methods="10" coveredmethods="9"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="7" type="stmt"/>
+        <line num="12" count="7" type="stmt"/>
+        <line num="13" count="7" type="stmt"/>
+        <line num="14" count="7" type="stmt"/>
+        <line num="16" count="7" type="stmt"/>
+        <line num="17" count="7" type="stmt"/>
+        <line num="18" count="2" type="stmt"/>
+        <line num="21" count="7" type="stmt"/>
+        <line num="22" count="2" type="stmt"/>
+        <line num="25" count="2" type="stmt"/>
+        <line num="26" count="2" type="stmt"/>
+        <line num="29" count="2" type="stmt"/>
+        <line num="34" count="7" type="stmt"/>
+        <line num="35" count="7" type="cond" truecount="1" falsecount="1"/>
+        <line num="37" count="7" type="stmt"/>
+        <line num="38" count="1" type="stmt"/>
+        <line num="39" count="20" type="stmt"/>
+        <line num="41" count="1" type="stmt"/>
+        <line num="44" count="7" type="cond" truecount="2" falsecount="0"/>
+        <line num="55" count="0" type="stmt"/>
+        <line num="76" count="1" type="stmt"/>
+        <line num="81" count="1" type="stmt"/>
+        <line num="82" count="20" type="stmt"/>
+        <line num="84" count="1" type="stmt"/>
+        <line num="104" count="75" type="stmt"/>
+      </file>
+      <file name="Cart.js" path="C:\Users\Himanshu Kumar\Desktop\Practice\Lecture13\src\components\Cart.js">
+        <metrics statements="14" coveredstatements="8" conditionals="7" coveredconditionals="2" methods="5" coveredmethods="3"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="8" count="8" type="stmt"/>
+        <line num="9" count="4" type="stmt"/>
+        <line num="12" count="4" type="stmt"/>
+        <line num="14" count="4" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="18" count="4" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="20" count="0" type="cond" truecount="0" falsecount="5"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="28" count="4" type="stmt"/>
+        <line num="49" count="0" type="stmt"/>
+      </file>
+      <file name="Contact.js" path="C:\Users\Himanshu Kumar\Desktop\Practice\Lecture13\src\components\Contact.js">
+        <metrics statements="11" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="1"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="4" type="stmt"/>
+        <line num="10" count="4" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="18" count="4" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="31" count="4" type="stmt"/>
+      </file>
+      <file name="Header.js" path="C:\Users\Himanshu Kumar\Desktop\Practice\Lecture13\src\components\Header.js">
+        <metrics statements="8" coveredstatements="8" conditionals="4" coveredconditionals="2" methods="4" coveredmethods="4"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="10" count="9" type="stmt"/>
+        <line num="11" count="9" type="stmt"/>
+        <line num="12" count="9" type="stmt"/>
+        <line num="15" count="17" type="stmt"/>
+        <line num="17" count="9" type="stmt"/>
+        <line num="59" count="1" type="stmt"/>
+        <line num="60" count="1" type="cond" truecount="1" falsecount="1"/>
+      </file>
+      <file name="ItemList.js" path="C:\Users\Himanshu Kumar\Desktop\Practice\Lecture13\src\components\ItemList.js">
+        <metrics statements="7" coveredstatements="7" conditionals="2" coveredconditionals="1" methods="4" coveredmethods="4"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="16" type="stmt"/>
+        <line num="8" count="16" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="14" count="16" type="stmt"/>
+        <line num="18" count="137" type="stmt"/>
+        <line num="46" count="2" type="stmt"/>
+      </file>
+      <file name="OfflineMessage.js" path="C:\Users\Himanshu Kumar\Desktop\Practice\Lecture13\src\components\OfflineMessage.js">
+        <metrics statements="3" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+      </file>
+      <file name="RestaurantCard.js" path="C:\Users\Himanshu Kumar\Desktop\Practice\Lecture13\src\components\RestaurantCard.js">
+        <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="7" count="77" type="stmt"/>
+        <line num="9" count="77" type="stmt"/>
+        <line num="10" count="77" type="stmt"/>
+        <line num="11" count="77" type="stmt"/>
+        <line num="40" count="2" type="stmt"/>
+        <line num="41" count="8" type="stmt"/>
+        <line num="42" count="76" type="stmt"/>
+      </file>
+      <file name="RestaurantCategory.js" path="C:\Users\Himanshu Kumar\Desktop\Practice\Lecture13\src\components\RestaurantCategory.js">
+        <metrics statements="3" coveredstatements="3" conditionals="8" coveredconditionals="7" methods="2" coveredmethods="2"/>
+        <line num="5" count="14" type="stmt"/>
+        <line num="6" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="9" count="14" type="stmt"/>
+      </file>
+      <file name="RestaurantMenu.js" path="C:\Users\Himanshu Kumar\Desktop\Practice\Lecture13\src\components\RestaurantMenu.js">
+        <metrics statements="10" coveredstatements="10" conditionals="8" coveredconditionals="6" methods="4" coveredmethods="4"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="9" count="3" type="stmt"/>
+        <line num="10" count="3" type="stmt"/>
+        <line num="11" count="3" type="stmt"/>
+        <line num="14" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="17" count="2" type="stmt"/>
+        <line num="18" count="38" type="stmt"/>
+        <line num="21" count="2" type="stmt"/>
+        <line num="29" count="14" type="stmt"/>
+        <line num="33" count="1" type="cond" truecount="1" falsecount="1"/>
+      </file>
+      <file name="Shimmer.js" path="C:\Users\Himanshu Kumar\Desktop\Practice\Lecture13\src\components\Shimmer.js">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="5" count="12" type="stmt"/>
+      </file>
+      <file name="sum.js" path="C:\Users\Himanshu Kumar\Desktop\Practice\Lecture13\src\components\sum.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="utils">
+      <metrics statements="29" coveredstatements="24" conditionals="4" coveredconditionals="0" methods="10" coveredmethods="7"/>
+      <file name="UserContext.js" path="C:\Users\Himanshu Kumar\Desktop\Practice\Lecture13\src\utils\UserContext.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="4" type="stmt"/>
+      </file>
+      <file name="appStore.js" path="C:\Users\Himanshu Kumar\Desktop\Practice\Lecture13\src\utils\appStore.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="4" count="2" type="stmt"/>
+      </file>
+      <file name="cartSlice.js" path="C:\Users\Himanshu Kumar\Desktop\Practice\Lecture13\src\utils\cartSlice.js">
+        <metrics statements="7" coveredstatements="4" conditionals="4" coveredconditionals="0" methods="3" coveredmethods="2"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="18" count="2" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="25" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="30" count="1" type="stmt"/>
+        <line num="37" count="2" type="stmt"/>
+      </file>
+      <file name="constants.js" path="C:\Users\Himanshu Kumar\Desktop\Practice\Lecture13\src\utils\constants.js">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="4" type="stmt"/>
+        <line num="3" count="4" type="stmt"/>
+        <line num="5" count="4" type="stmt"/>
+      </file>
+      <file name="useOnlineStatus.js" path="C:\Users\Himanshu Kumar\Desktop\Practice\Lecture13\src\utils\useOnlineStatus.js">
+        <metrics statements="8" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="2"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="16" type="stmt"/>
+        <line num="7" count="16" type="stmt"/>
+        <line num="8" count="7" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="11" count="7" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="17" count="16" type="stmt"/>
+      </file>
+      <file name="useRestaurantMenu.js" path="C:\Users\Himanshu Kumar\Desktop\Practice\Lecture13\src\utils\useRestaurantMenu.js">
+        <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="8" count="3" type="stmt"/>
+        <line num="10" count="3" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="14" count="3" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="21" count="3" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

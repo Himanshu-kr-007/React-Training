@@ -1,0 +1,553 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.header {
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f4f4f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header .logoContainer {
+    display: flex;
+    align-items: center;
+}
+
+.header .logoContainer .logo {
+    width: 40px;
+}
+
+.header .title .title-heading {
+    font-size: 24px;
+    margin-left: 10vw;
+}
+
+.header .nav-items ul {
+    display: flex;
+}
+
+.header .nav-items ul li {
+    list-style: none;
+    margin-left: 15px;
+}
+
+.header .nav-items ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.header .nav-items ul li a:hover {
+    color: #e74c3c;
+}
+
+.heropage-heading {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 48px;
+    color: #2c3e50;
+}
+
+.heropage-para {
+    text-align: center;
+    padding: 10px 0;
+    font-size: 24px;
+    color: #7f8c8d;
+}
+
+.search-bar {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.search-bar input {
+    width: 30%;
+    font-size: 18px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.search-bar input::placeholder {
+    font-size: 14px;
+    text-align: center;
+    color: #aaa;
+}
+
+.search-bar .Search-button {
+    border: 1px solid #ddd;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #3498db;
+    color: white;
+    font-size: 17px;
+    margin-left: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.search-bar .Search-button:hover {
+    background-color: #2980b9;
+}
+
+.top-rated-restaurant {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    /* margin-top: -120px; */
+}
+
+.top-rated-restaurant button {
+    border: 1px solid #3498db;
+    font-size: 16px;
+    padding: 10px 15px;
+    background-color: #3498db;
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.top-rated-restaurant button:hover {
+    background-color: #2980b9;
+    cursor: pointer;
+}
+
+
+.restaurant-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: center;
+}
+.restaurant-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 22vw;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.restaurant-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.restaurant-card .restaurant-image {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.restaurant-card .restaurant-image img {
+    width: 80%;
+    border-radius: 10px;
+}
+
+.restaurant-card .restaurant-details {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.restaurant-card .restaurant-details button {
+    cursor: pointer;
+    border: 1px solid #3498db;
+    background-color: #3498db;
+    color: white;
+    margin-top: auto;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.restaurant-card .restaurant-details button:hover {
+    background-color: #2980b9;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .top-rated-restaurant {
+        margin-top: 0;
+        padding: 10px 0;
+    }
+
+    .top-rated-restaurant button {
+        font-size: 14px;
+        padding: 8px 12px;
+    }
+}
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+}
+.footer .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+.footer .section {
+    flex: 1 1 200px;
+    margin: 10px;
+}
+.footer .section h3 {
+    border-bottom: 2px solid #ff9900;
+    padding-bottom: 10px;
+}
+.footer .section ul {
+    list-style: none;
+    padding: 0;
+}
+.footer .section ul li {
+    margin: 10px 0;
+}
+.footer .section ul li a {
+    color: white;
+    text-decoration: none;
+}
+.footer .section ul li a:hover {
+    text-decoration: underline;
+}
+.footer .social-icons a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+}
+.footer .social-icons a:hover {
+    color: #ff9900;
+}
+.footer .contact-info p {
+    margin: 5px 0;
+}
+
+
+/* Container for shimmer cards */
+.shimmer-Container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: center;
+}
+
+/* Individual shimmer card */
+.shimmer-card {
+    width: 22vw;
+    height: 200px; /* Adjust the height according to your needs */
+    margin: 10px;
+    border-radius: 10px;
+    background: linear-gradient(
+        to right,
+        #f6f7f8 0%,
+        #edeef1 20%,
+        #f6f7f8 40%,
+        #f6f7f8 100%
+    );
+    background-size: 200% 100%;
+    animation: shimmer 1.5s infinite;
+}
+
+/* Shimmer animation */
+@keyframes shimmer {
+    0% {
+        background-position: -200% 0;
+    }
+    100% {
+        background-position: 200% 0;
+    }
+}
+
+/* Media query for very small screens */
+@media (max-width: 480px) {
+    .top-rated-restaurant button {
+        font-size: 12px;
+        padding: 6px 10px;
+    }
+}
+
+
+@media (max-width: 600px) {
+    .footer .container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+.about-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.about-header {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #ff9900;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.about-header h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.about-header p {
+    font-size: 1.2em;
+    margin: 10px 0 0;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.about-section {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.about-section h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.about-section p {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+.about-section ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.about-section ul li {
+    font-size: 1.1em;
+    margin-bottom: 5px;
+}
+
+@media (max-width: 768px) {
+    .about-content {
+        padding: 0 10px;
+    }
+
+    .about-header h1 {
+        font-size: 2.5em;
+    }
+
+    .about-header p {
+        font-size: 1em;
+    }
+
+    .about-section h2 {
+        font-size: 1.5em;
+    }
+
+    .about-section p, .about-section ul li {
+        font-size: 1em;
+    }
+}
+
+
+.contact-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.contact-container h1 {
+    text-align: center;
+    color: #333;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.form-group input,
+.form-group textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.form-group textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.submit-button {
+    padding: 10px 20px;
+    background-color: #ff9900;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: #cc7a00;
+}
+
+@media (max-width: 600px) {
+    .contact-container {
+        padding: 10px;
+    }
+}
+
+
+.error-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f9f9f9;
+    font-family: Arial, sans-serif;
+}
+
+.error-content {
+    text-align: center;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.error-code {
+    font-size: 5em;
+    color: #ff9900;
+    margin: 0;
+}
+
+.error-message {
+    font-size: 1.5em;
+    color: #333;
+}
+
+.error-details {
+    font-size: 1.2em;
+    color: #666;
+    margin: 20px 0;
+}
+
+.home-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff9900;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.home-link:hover {
+    background-color: #cc7a00;
+}
+
+.restaurant-card-container > a{
+    text-decoration: none;
+    color: black;
+}
+
+.Menu{
+    border: 1px solid black;
+}
+
+/* Container styling */
+.Menu {
+    max-width: 600px;
+    margin: 70 auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Title styling */
+.Menu > h3 {
+    font-size: 24px;
+    color: #343a40;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* List styling */
+.Menu > ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Individual menu item styling */
+.Menu > ul > .Menu-items {
+    border: 1px solid #dee2e6;
+    background-color: #ffffff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+
+/* Menu item hover effect */
+.Menu > ul > .Menu-items:hover {
+    background-color: #e9ecef;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Price styling */
+.Menu-items .price {
+    color: #28a745;
+    font-weight: bold;
+}
+

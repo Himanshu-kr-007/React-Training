@@ -1,0 +1,18 @@
+# Redux Toolkit
+    -> Install Redux
+        - Install @reduxjs/toolkit and react-redux
+            npm i @reduxjs/toolkit
+            npm i react-redux
+    -> Build Our Store
+        Building the Store in Utils with name of appStore.js
+    -> Connect Our Store to App
+    -> Create a (cartSlice) Slice
+    -> Dispacth(action) 
+    -> Read data using Selector
+
+Difference between all threes:
+    onClick={handleAddItem} 
+    onClick={() => handleAddItem(item)}    // Passing the Function
+    onClick={handleAddItem(item)}   // Calling Function Right Away
+
+pollyfills
